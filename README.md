@@ -7,7 +7,7 @@ uvicorn src.app.main:app --host 0.0.0.0 --port 8080
 ## Se puede lanzar con Docker ##
 
 ```shell
-docker run -d --name python-criptor ggchavezhotmail/python-cryptor:v1 -p 8080:8080
+docker run -d --name python-criptor -p 8080:8080 ggchavezhotmail/python-cryptor:v1
 ```
 
 ## Ejecutar Metodo Encriptar ##
